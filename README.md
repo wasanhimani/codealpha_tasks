@@ -18,5 +18,22 @@ It calculates your GPA — by multiplying each grade with its credit hours and d
 Add previous semesters — if you have past semester data, you can add it to get your overall CGPA
 Displays your results — shows your name, program, semester GPA, and cumulative CGPA neatly
 
-2:SUDOKU SOLVER
+2:SUDOKU SOLVER-A C++ program that automatically solves a 9×9 Sudoku puzzle using a smart trial-and-error technique called backtracking.
+How it works — Step by Step:
+
+A puzzle is loaded — a 9×9 grid is pre-filled with some numbers, and empty cells are represented as 0
+Finds an empty cell — the program scans the grid to locate the next unfilled cell
+Tries numbers 1–9 — for each empty cell it tries placing numbers one by one
+Checks if it's safe by verifying three rules:
+
+The number doesn't already exist in that row
+The number doesn't already exist in that column
+The number doesn't already exist in that 3×3 box
+
+
+If safe → place it and move to the next empty cell
+If stuck → backtrack — go back and try a different number
+Repeats until solved — displays the completed grid at the end
+
+3.BANKING MANAGEMENT SYSTEM-
 
