@@ -35,5 +35,7 @@ If safe → place it and move to the next empty cell
 If stuck → backtrack — go back and try a different number
 Repeats until solved — displays the completed grid at the end
 
-3.BANKING MANAGEMENT SYSTEM-
+3.BANKING MANAGEMENT SYSTEM-This is a simple console-based banking system built using Object-Oriented Programming in C++. It has four classes — Transaction, Account, Customer, and Bank — each handling a specific part of the system.
+A Bank holds multiple customers, each customer can have multiple accounts, and every account keeps a history of transactions. The system supports basic banking operations like deposit, withdrawal, and fund transfer between accounts, with basic validation (no negative amounts, no overdraft). Every operation gets recorded as a Transaction with a timestamp using C's ctime.
+The main() function demonstrates the whole flow — creating a customer, opening two accounts, performing transactions, and printing the account details and history.
 
